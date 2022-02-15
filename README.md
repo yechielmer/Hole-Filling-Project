@@ -1,1 +1,2 @@
 # Hole-Filling-Project
+In this project, I implemented a library, which get a hole in the picture and fill it. The project includes service classes, which mask the hole, and another library which uses an algorithm to fill the hole. In the algorithm, I sort the pixels to three groups, the hole pixels, the boundary pixels (close to the hole), and the rest, such that every pixel in the hole get the average of all the boundary pixels, in relation to the distance between the pixel and an boundary pixel.
